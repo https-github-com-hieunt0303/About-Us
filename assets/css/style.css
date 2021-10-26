@@ -14,17 +14,17 @@
 }
 .about-us-info{
     width: 100%;
-    display: flex;
-    justify-items: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
     margin-top: 48px;
 }
 .about-us-pic{
-    height: 900px;
+    width: 100%;
     padding-left: 16px;
     padding-right: 16px;
 }
 .about-us-pic__img{
-    height: 100%;
+    width: 100%;
     border-radius: 3px;
     object-fit: contain;
 }
@@ -63,7 +63,6 @@
 }
 .about-us-info__ingredients-create-with{
     border-collapse: collapse;
-    /* border: 1px solid var(--black-color); */
 }
 .about-us-info__ingredients-create-with-heading th{
     width: 50%;
